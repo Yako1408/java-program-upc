@@ -9,7 +9,7 @@ public class AsignacionDeTecnico {
 
     public static void asignar() {
         System.out.println("=======================================");
-        System.out.println("----------ASIGNACION DE TECNICO--------");
+        System.out.println("----------ASIGNACIÓN DE TÉCNICO--------");
         System.out.println("=======================================");
 
         System.out.print("Escriba el código de la solicitud: ");
@@ -29,7 +29,7 @@ public class AsignacionDeTecnico {
             return;
         }
 
-        System.out.println("Escriba el DNI del técnico");
+        System.out.println("Escriba el número de DNI del técnico");
         System.out.print(": ");
         String dniTecnico = scanner.nextLine();
 
